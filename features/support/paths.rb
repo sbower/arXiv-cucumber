@@ -10,8 +10,14 @@ module NavigationHelpers
 
       when /^the home\s?page$/
         '/'
-      when /^the admin page$/i
+      when /the admin page/i
         '/auth/admin'
+      when /the form page/
+        '/form'
+      when /the cs form page/
+        '/form/cs'
+      when /the abs page for ([\d\w\-\.\/]*)/
+        '/abs/' + $1
     end
   end
 end

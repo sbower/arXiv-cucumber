@@ -16,7 +16,12 @@ Installation
 
 2) install bundler
 
-    gem install bundler
+    $ gem install bundler
+    
+3) run bunlder to install required gems
+
+    $ cd arXiv-cucumber
+    bundle
     
 Running Tests
 =============

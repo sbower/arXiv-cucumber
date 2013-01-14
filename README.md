@@ -6,6 +6,10 @@ Barebones project to get cucumber testing working for arxiv.org
 Installation
 ============
 
+0) Prerequisites 
+
+    firefox
+
 1) install rvm
 
     $ \curl -L https://get.rvm.io | bash -s stable --ruby
